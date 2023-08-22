@@ -1,0 +1,46 @@
+Changelog for 'Excel Project Dataset.csv'
+
+08-22-2023
+-Select all columns, turn on Filter, check for emptys or nulls values in columns
+-Select all, check for Duplicates, removed 26 Duplicates
+
+-Marital Status column in M and S (Adding clarity to data with Find+Replace)
+	-Replaced M with Married
+	-Replaced S with Single
+
+-Gender column in M and F (Adding clarity to data with Find+Replace)
+	-Replaced M with Male
+	-Replaced F with Female
+
+-Created new column 'Age Brackets' to better visualize the age groups later on
+	-Split age groups into 3 categories: Adult, Middle Age, Senior
+
+-Created Pivot Table #1 (Fields with additional notes below)
+	-Income (Average)(Format change of Number displayed)
+	-Gender
+	-Purchased Bike
+		-Created Bar Chart visualization
+		-Added Labels
+			-Y-Axis (Income)
+			-X-Axis (Gender)
+			-Chart Name (Avg Income Per Purchase)
+
+-Created Pivot Table #2 (Fields with additional notes below)
+	-Commute Distance (Changed 10+ Miles to More than 10 Miles) - rearranges the data on table correctly in ascending order
+	-Purchased Bike	
+		-Created Line Chart visualization
+		-Added Labels
+			-X-Axis (Commuter Distance)
+			-Chart Name (Customer Commute)
+
+-Created Pivot Table #3 (Fields with additional notes below)
+	-Age Brackets
+	-Purchased Bike	
+		-Created Line Chart visualization
+		-Added Labels
+			-X-Axis (Age Bracket)
+			-Chart Name (Customer Age Brackets)
+
+-Creating Dashboard
+	-Remove gridlines
+
